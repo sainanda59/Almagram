@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Landing from "./components/Landing/Landing";
 import { useEffect } from "react";
+import HomePage from "./components/HomePage/HomePage";
 
 function App() {
   const action = useNavigationType();
@@ -48,6 +49,7 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Landing />} />
+      <Route exact path="/HomePage" element={<HomePage/>}/>
     </Routes>
   );
 }

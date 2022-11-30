@@ -1,9 +1,9 @@
 import React from 'react'
-import './Homepage.css'
+import './HomePage.css'
 export default function HomePage() {
   return (
     <div>
-      HomePage
+      HomePage initial
     </div>
   )
 }

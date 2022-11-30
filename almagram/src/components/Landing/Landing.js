@@ -1,4 +1,5 @@
 import "./Landing.css";
+import Image from './landingImg.png';
 
 const Landing = () => {
   return (
@@ -10,13 +11,7 @@ const Landing = () => {
       />
       <div className="frame-div">
         <div className="frame-div1">
-          <div className="rectangle-div" />
-          <div className="frame-div2">
-            <div className="almagram-div">Almagram</div>
-            <div className="frame-div3">
-              <b className="get-started-b">GET STARTED!</b>
-            </div>
-          </div>
+          <div className="get-started-div">GET STARTED!</div>
         </div>
         <div className="frame-div4">
           <div className="frame-div5">
