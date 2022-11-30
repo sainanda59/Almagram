@@ -1,5 +1,6 @@
 import "./Landing.css";
 import Image from './landingImg.png';
+import { Link } from "react-router-dom";
 
 const Landing = () => {
   return (
@@ -12,7 +13,7 @@ const Landing = () => {
         />
         <div className="almagram-div">Almagram</div>
         <div className="frame-div1">
-          <div className="get-started-div">GET STARTED!</div>
+          <Link to="/HomePage"><div className="get-started-div">GET STARTED!</div></Link>
         </div>
         <div className="frame-div2">
           <div className="back-to-where-it-began">
