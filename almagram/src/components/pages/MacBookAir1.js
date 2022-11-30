@@ -1,14 +1,15 @@
-import "./Landing.css";
-import LandImage from './land-img.svg';
+import "./MacBookAir1.css";
+import Image from './illustration--scene-plants-sample-template-example-removebg.png';
+import Image2 from './funtu.png';
 
-const Landing = () => {
+const MacBookAir1 = () => {
   return (
-    <div className="Landing">
+    <div className="macbook-air-1">
       <div className="frame-div">
         <img
           className="illustration-scene-plants-sa"
           alt=""
-          src={LandImage}
+          src={Image}
         />
         <div className="almagram-div">Almagram</div>
         <div className="frame-div1">
@@ -21,7 +22,8 @@ const Landing = () => {
           </div>
           <div className="llorem-ipsum-dolor-sit-amet-c">
             <p className="back-to-where">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel enim tellus. Nunc tempus molestie dui, vel volutpat lorem malesuada a. Aenean elementum vitae ante ut malesuada. Morbi non tempus quam. Nam tempus purus at dui tempus efficitur. Sed finibus dapibus tortor, in ultricies mauris mollis pulvinar. Duis sodales sem. 
+              lLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              mattis tincidunt purus,gdggwygdyhgwhdgh dhwveydvwtedhcegdw
             </p>
           </div>
         </div>
@@ -30,4 +32,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default MacBookAir1;
