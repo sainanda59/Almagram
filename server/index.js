@@ -17,9 +17,8 @@ const client = new AffindaAPI(credential)
 const dirPath = path.join(__dirname, "/Sai-Soumyak-Nanda-2024-2.pdf")
 // fs.mkdirSync(dirPath)
 
+
 const readStream = fs.createReadStream(dirPath);
-let data;
-console.log(__dirname)
 
 client.createInvoice({file: readStream}).then((result) => {
     console.log("Returned data:");
@@ -28,33 +27,6 @@ client.createInvoice({file: readStream}).then((result) => {
     console.log("An error occurred:");
     console.error(err);
 });
-
-// client.createResume({file: readStream}).then((result) => {
-//     console.log("Returned data:");
-//     console.dir(result)
-//     data = result;
-// }).catch((err) => {
-//     console.log("An error occurred:");
-//     console.error(err);
-// });
-
-
-// client.createInvoice({url: "https://api.affinda.com/static/server/Sai-Soumyak-Nanda-2024-2.pdf"}).then((result) => {
-//     console.log("Returned data:");
-//     console.dir(result)
-//     data = result;
-// }).catch((err) => {
-//     console.log("An error occurred:");
-//     console.error(err);
-// });
-
-// client.getResume(data).then((result) => {
-//     console.log("Returned data:");
-//     console.dir(result)
-// }).catch((err) => {
-//     console.log("An error occurred:");
-//     console.error(err);
-// });
 
 
 
