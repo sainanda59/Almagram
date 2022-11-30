@@ -1,10 +1,9 @@
-import "./MacBookAir1.css";
-import Image from './illustration--scene-plants-sample-template-example-removebg.png';
-import Image2 from './funtu.png';
+import "./Landing.css";
+import Image from './landingImg.png';
 
-const MacBookAir1 = () => {
+const Landing = () => {
   return (
-    <div className="macbook-air-1">
+    <div className="landing">
       <div className="frame-div">
         <img
           className="illustration-scene-plants-sa"
@@ -32,4 +31,4 @@ const MacBookAir1 = () => {
   );
 };
 
-export default MacBookAir1;
+export default Landing;

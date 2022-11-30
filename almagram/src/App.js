@@ -4,7 +4,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import MacBookAir1 from "./components/pages/MacBookAir1";
+import Landing from "./components/Landing/Landing";
 import { useEffect } from "react";
 
 function App() {
@@ -28,6 +28,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      default:
     }
 
     if (title) {
@@ -46,7 +47,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<MacBookAir1 />} />
+      <Route path="/" element={<Landing />} />
     </Routes>
   );
 }
