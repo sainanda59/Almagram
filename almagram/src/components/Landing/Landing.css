@@ -1,0 +1,91 @@
+.illustration-scene-plants-sa {
+    position: absolute;
+    top: 0;
+    left: 378px;
+    width: 1097px;
+    height: 712px;
+    overflow: hidden;
+    opacity: 0.8;
+    }
+
+.almagram-div {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  letter-spacing: 0.01em;
+  display: inline-block;
+  width: 199px;
+  height: 44px;
+}
+.get-started-div {
+  position: relative;
+  display: inline-block;
+}
+.frame-div1 {
+position: absolute;
+top: 510px;
+left: 0px;
+border-radius: var(--br-lg);
+background-color: var(--color-orange);
+display: flex;
+flex-direction: row;
+padding: var(--padding-sm) var(--padding-md);
+box-sizing: border-box;
+align-items: center;
+justify-content: center;
+font-size: var(--font-size-2xl);
+font-family: var(--font-cabin-condensed);
+}
+.back-to-where {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+.it-began {
+  margin: 0;
+}
+.back-to-where-it-began {
+  position: relative;
+  letter-spacing: -0.04em;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+
+.llorem-ipsum-dolor-sit-amet-c {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0em;
+  color: var(--color-black);
+  display: inline-block;
+  width: 552px;
+}
+.frame-div2 {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-md);
+  font-size: var(--font-size-10xl);
+  color: var(--color-gray-1400);
+  font-family: var(--font-antic-slab);
+}
+.frame-div {
+  position: absolute;
+  top: 42px;
+  left: 53px;
+  width: 1343px;
+  height: 748px;
+}
+.Landing {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-black);
+  font-family: var(--font-arsenal);
+}
