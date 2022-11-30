@@ -1,2 +1,2 @@
 # Almagram
-Project for Smart Odisha Hackathon 2022
+## Project for Smart Odisha Hackathon 2022
