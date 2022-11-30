@@ -13,7 +13,7 @@ const Landing = () => {
         />
         <div className="almagram-div">Almagram</div>
         <div className="frame-div1">
-          <Link to="/HomePage"><div className="get-started-div">GET STARTED!</div></Link>
+          <div className="get-started-div">GET STARTED!</div>
         </div>
         <div className="frame-div2">
           <div className="back-to-where-it-began">
